@@ -1,0 +1,23 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  background-color: aliceblue;
+}
+
+.header {
+  background-color: lightpink;
+}
+
+.sidebar {
+  background-color: lightgreen;
+}
+
+.main-content {
+  background-color: lightsalmon;
+}
