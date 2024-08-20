@@ -35,6 +35,10 @@ textarea {
   font: inherit;
 }
 
+ul li {
+  list-style: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -92,7 +96,17 @@ textarea {
 
 .sidebar {
   grid-area: sidebar;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: var(--section-padding);
+  padding: var(--section-padding);
   background-color: lightgreen;
+}
+
+.sidebar li,
+.dashboard-heading-wrapper {
+  display: flex;
+  gap: 0.5rem;
 }
 
 /* MAIN CONTENT */
