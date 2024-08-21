@@ -115,7 +115,7 @@ input {
 
 .profile-wrapper {
   display: flex;
-  gap: var(--section-padding);
+  gap: 1rem;
   align-items: center;
 }
 
