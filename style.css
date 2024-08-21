@@ -7,6 +7,8 @@ html {
   --font-size-3xl: 2.652rem;
 
   --section-padding: clamp(1rem, 1.53vw + 0.694rem, 2rem);
+
+  --border-radius: 15px;
 }
 /* CSS Reset */
 * {
@@ -26,8 +28,15 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
+}
+
+img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(213, 213, 213);
 }
 
 input,
@@ -58,6 +67,11 @@ ul li {
   padding: var(--section-padding);
 }
 
+.header p,
+button {
+  font-weight: bold;
+}
+
 /* Top Bar */
 .search {
   display: flex;
@@ -72,10 +86,25 @@ ul li {
   gap: var(--section-padding);
 }
 
+input {
+  width: 35vw;
+  border: none;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+}
+
+.svg-search {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+}
+
 .profile-bar {
   display: flex;
   flex-direction: row;
   gap: var(--section-padding);
+  align-items: center;
 }
 
 /* Bottom Bar */
@@ -88,11 +117,35 @@ ul li {
 .profile-wrapper {
   display: flex;
   gap: var(--section-padding);
+  align-items: center;
 }
 
 .button-wrapper {
   display: flex;
   gap: var(--section-padding);
+  align-items: center;
+}
+
+.profile-pic-large {
+  height: 60px;
+  width: 60px;
+}
+
+.greeting {
+  font-size: var(--font-size-xs);
+}
+
+.user-name {
+  font-size: var(--font-size-l);
+}
+
+.profile button {
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-s);
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  padding: 5px 15px;
 }
 /* SIDEBAR */
 
