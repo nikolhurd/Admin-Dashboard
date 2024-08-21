@@ -13,6 +13,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -41,6 +42,7 @@ ul li {
 
 .container {
   display: grid;
+  height: 100vh;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 6fr;
   grid-template-areas:
