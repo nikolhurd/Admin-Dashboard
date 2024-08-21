@@ -1,7 +1,7 @@
 # Admin-Dashboard
 
 Project "Admin Dashboard" is one of the projects in The Odin Project, Intermediate HTML and CSS Course. <br>
-You can find more about the Assigment [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#project-solution).<br>
+You can find more about the Assigment [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).<br>
 
 ## [Live preview of the project](https://nikolhurd.github.io/admin-dashboard/) <br>
 
