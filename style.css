@@ -34,8 +34,8 @@ svg {
 
 img {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  min-width: 40px;
+  height: auto;
   border: 1px solid rgb(213, 213, 213);
 }
 
@@ -95,9 +95,7 @@ input {
 
 .svg-search {
   width: 20px;
-  min-width: 20px;
   height: 20px;
-  min-height: 20px;
 }
 
 .profile-bar {
@@ -105,6 +103,7 @@ input {
   flex-direction: row;
   gap: var(--section-padding);
   align-items: center;
+  padding-right: 1rem;
 }
 
 /* Bottom Bar */
@@ -127,12 +126,13 @@ input {
 }
 
 .profile-pic-large {
-  height: 60px;
   width: 60px;
+  min-width: 60px;
+  height: auto;
 }
 
 .greeting {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-s);
 }
 
 .user-name {
